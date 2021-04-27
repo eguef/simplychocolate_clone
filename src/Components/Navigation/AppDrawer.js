@@ -15,8 +15,8 @@ const AppDrawer = () => {
 
   return (
     <div className={classes.root}>
-      <Topbar />
       <Router>
+        <Topbar />
         <Switch>
           <Route exact path="/">
             <div>Home</div>
